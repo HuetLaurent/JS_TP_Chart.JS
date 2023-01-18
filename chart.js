@@ -14,25 +14,33 @@ let eleve = [
       labels: ["Français", "Math", "Anglais", "Histoire", "SVT"],
       datasets: [
         {
-          label: "exam1",
-          backgroundColor: "#CC2828",
-          data: [133,221,783,2478]
+          label: "examen 1",
+          backgroundColor: "#7F7F7F",
+          data: [eleve[0].notes[0],eleve[1].notes[0],eleve[2].notes[0],eleve[3].notes[0],eleve[4].notes[0], 20]
         }, {
-          label: "exam2",
-          backgroundColor: "#2843CC",
-          data: [408,547,675,734]
+          label: "examen 2",
+          backgroundColor: "#B2B2B2",
+          data: [eleve[0].notes[1],eleve[1].notes[1],eleve[2].notes[1],eleve[3].notes[1],eleve[4].notes[1]]
         }, {
-          label: "exam3",
-          backgroundColor: "#8e5ea2",
-          data: [408,547,675,734]
+          label: "examen 3",
+          backgroundColor: "#7F7F7F",
+          data: [eleve[0].notes[2],eleve[1].notes[2],eleve[2].notes[2],eleve[3].notes[2],eleve[4].notes[2]]
         }, {
-          label: "exam4",
-          backgroundColor: "#8e5ea2",
-          data: [408,547,675,734]
+          label: "examen 4",
+          backgroundColor: "#B2B2B2",
+          data: [eleve[0].notes[3],eleve[1].notes[3],eleve[2].notes[3],eleve[3].notes[3],eleve[4].notes[3]]
         }, {
-          label: "exam5",
-          backgroundColor: "#8e5ea2",
-          data: [408,547,675,734]
+          label: "examen 5",
+          backgroundColor: "#7F7F7F",
+          data: [eleve[0].notes[4],eleve[1].notes[4],eleve[2].notes[4],eleve[3].notes[4],eleve[4].notes[4]]
+        }, {
+          label: "examen 6",
+          backgroundColor: "#B2B2B2",
+          data: [eleve[0].notes[5],eleve[1].notes[5],eleve[2].notes[5],eleve[3].notes[5],eleve[4].notes[5]]
+        }, {
+          label: "examen 7",
+          backgroundColor: "#7F7F7F",
+          data: [eleve[0].notes[6],eleve[1].notes[6],eleve[2].notes[6],eleve[3].notes[6],eleve[4].notes[6]]
         }
       ]
     },

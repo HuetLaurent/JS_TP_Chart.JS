@@ -5,8 +5,17 @@ body{
     flex-direction: column;
 }
 
-#myChart {
+h3 {
+    margin: 0px;
+    text-decoration-line: underline;
+}
+
+p {
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+#bar-chart-grouped {
     width: 1200px !important;
     height: 600px !important;
-    margin-bottom: 20px;
 };
